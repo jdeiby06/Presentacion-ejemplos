@@ -12,3 +12,6 @@ function calculatePrice(price, discount) {
 
 const discountedPrice = calculatePrice(100, '10%');
 console.log(`Your discounted price is ${discountedPrice}`); //  The discount you get is 90
+
+
+//El código anterior viola el principio de abierto/cerrado porque hay que añadir otra instruccion if…else si se quiere añadir un nuevo descuento.

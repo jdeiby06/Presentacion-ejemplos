@@ -14,3 +14,4 @@ function calculatePrice(price, discountType) {
 
 const discountedPrice = calculatePrice(100, '30%');
 console.log(`Your discounted price is $${discountedPrice}`);
+//Ahora,  si desea agregar nuevos descuentos, solo necesita agregarlos al objeto de descuento, no a la función existente que calcula el descuento.
